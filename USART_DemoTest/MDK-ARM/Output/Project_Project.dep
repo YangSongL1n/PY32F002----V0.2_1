@@ -1,0 +1,312 @@
+Dependencies for Project 'Project', Target 'Project': (DO NOT MODIFY !)
+CompilerVersion: 5060528::V5.06 update 5 (build 528)::.\ARMCC
+F (..\Common\system_py32f0xx.c)(0x63928E72)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\system_py32f0xx.o --omf_browse .\output\system_py32f0xx.crf --depend .\output\system_py32f0xx.d)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+F (..\Common\startup_py32f002xx.s)(0x63928E72)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include--pd "__UVISION_VERSION SETA 537" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"--list .\output\startup_py32f002xx.lst --xref -o .\output\startup_py32f002xx.o --depend .\output\startup_py32f002xx.d)
+F (..\Driver\Src\main.c)(0x66192B66)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (..\Driver\Inc\main.h)(0x63928E73)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+I (..\BSP\PY32F002xx_Start_Kit\py32f002xx_Start_Kit.h)(0x63928E95)
+F (..\Driver\Src\py32f0xx_hal_msp.c)(0x63928E72)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\py32f0xx_hal_msp.o --omf_browse .\output\py32f0xx_hal_msp.crf --depend .\output\py32f0xx_hal_msp.d)
+I (..\Driver\Inc\main.h)(0x63928E73)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+I (..\BSP\PY32F002xx_Start_Kit\py32f002xx_Start_Kit.h)(0x63928E95)
+F (..\Driver\Src\py32f0xx_it.c)(0x63928E72)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\py32f0xx_it.o --omf_browse .\output\py32f0xx_it.crf --depend .\output\py32f0xx_it.d)
+I (..\Driver\Inc\main.h)(0x63928E73)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+I (..\BSP\PY32F002xx_Start_Kit\py32f002xx_Start_Kit.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_it.h)(0x63928E72)
+F (..\BSP\PY32F002xx_Start_Kit\py32f002xx_Start_Kit.c)(0x63928E95)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\py32f002xx_start_kit.o --omf_browse .\output\py32f002xx_start_kit.crf --depend .\output\py32f002xx_start_kit.d)
+I (..\BSP\PY32F002xx_Start_Kit\py32f002xx_Start_Kit.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+F (..\Driver\Src\py32f0xx_hal.c)(0x63928E94)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\py32f0xx_hal.o --omf_browse .\output\py32f0xx_hal.crf --depend .\output\py32f0xx_hal.d)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+F (..\Driver\Src\py32f0xx_hal_rcc.c)(0x63928E94)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\py32f0xx_hal_rcc.o --omf_browse .\output\py32f0xx_hal_rcc.crf --depend .\output\py32f0xx_hal_rcc.d)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+F (..\Driver\Src\py32f0xx_hal_gpio.c)(0x63928E94)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\py32f0xx_hal_gpio.o --omf_browse .\output\py32f0xx_hal_gpio.crf --depend .\output\py32f0xx_hal_gpio.d)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+F (..\Driver\Src\py32f0xx_hal_pwr.c)(0x63928E94)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\py32f0xx_hal_pwr.o --omf_browse .\output\py32f0xx_hal_pwr.crf --depend .\output\py32f0xx_hal_pwr.d)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+F (..\Driver\Src\py32f0xx_hal_uart.c)(0x63928E94)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\py32f0xx_hal_uart.o --omf_browse .\output\py32f0xx_hal_uart.crf --depend .\output\py32f0xx_hal_uart.d)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+F (..\Driver\Src\py32f0xx_hal_usart.c)(0x63928E94)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\py32f0xx_hal_usart.o --omf_browse .\output\py32f0xx_hal_usart.crf --depend .\output\py32f0xx_hal_usart.d)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+F (..\Driver\Src\py32f0xx_hal_cortex.c)(0x63928E94)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\BSP\PY32F002xx_Start_Kit -I ..\Common -I ..\Driver\CMSIS\Device\PY32F0xx\Source -I ..\Driver\Inc -I ..\Driver\Src -I ..\Include-I.\RTE\_Project-IE:\Keil_v5\ARM\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include-IE:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DPY32F002Ax5-o .\output\py32f0xx_hal_cortex.o --omf_browse .\output\py32f0xx_hal_cortex.crf --depend .\output\py32f0xx_hal_cortex.d)
+I (..\Driver\Inc\py32f0xx_hal.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_conf.h)(0x63928E72)
+I (..\Driver\Inc\py32f0xx_hal_rcc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_def.h)(0x63928E95)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f0xx.h)(0x64E3032C)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\py32f002ax5.h)(0x64E2D23C)
+I (..\Include\core_cm0plus.h)(0x63928E94)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\Include\core_cmInstr.h)(0x63928E93)
+I (..\Include\cmsis_armcc.h)(0x63928E93)
+I (..\Include\core_cmFunc.h)(0x63928E93)
+I (E:\Keil_v5\ARM\Packs\Puya\PY32F0xx_DFP\1.2.0\Drivers\CMSIS\Device\Puya\PY32F0xx\Include\system_py32f0xx.h)(0x64E2D23C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (..\Driver\Inc\py32f0xx_hal_rcc_ex.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio.h)(0x63928E95)
+I (..\Driver\Inc\py32f0xx_hal_gpio_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_cortex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_adc_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_flash.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_pwr.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_tim_ex.h)(0x63928E94)
+I (..\Driver\Inc\py32f0xx_hal_uart.h)(0x63928E95)
+F (..\readme.txt)(0x63928E73)()
